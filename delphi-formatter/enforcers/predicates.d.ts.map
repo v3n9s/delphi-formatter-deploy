@@ -1,0 +1,1 @@
+{"version":3,"file":"predicates.d.ts","sourceRoot":"","sources":["../../src/enforcers/predicates.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAE7C,eAAO,MAAM,mBAAmB,EAAE,SAAsB,CAAC;AAEzD,eAAO,MAAM,uBAAuB,EAAE,SAErC,CAAC;AAEF,eAAO,MAAM,gBAAgB,EAAE,SAE9B,CAAC;AAEF,eAAO,MAAM,gBAAgB,EAAE,SAE9B,CAAC"}

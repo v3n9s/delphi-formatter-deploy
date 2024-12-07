@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      .main-container {
+        display: flex;
+        height: 100%;
+      }
+
+      .program-text-textarea {
+        flex: 1 0 1px;
+        height: 100%;
+        outline: 0px;
+        padding: 2px;
+        font-size: 24px;
+        resize: none;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="./script.js"></script>
+    <div class="main-container">
+      <textarea
+        class="program-text-textarea"
+        id="program-text-input"
+      ></textarea>
+      <textarea
+        class="program-text-textarea"
+        id="program-text-output"
+        disabled="true"
+        readonly="true"
+      ></textarea>
+    </div>
+  </body>
+</html>
